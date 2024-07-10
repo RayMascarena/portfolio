@@ -1,0 +1,55 @@
+.game {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  font-family: "montserrat-medium", sans-serif;
+}
+
+.game-name {
+  color: #39b54a;
+  font-size: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  white-space: nowrap;
+}
+
+.diceLabel {
+  font-size: 2.5rem;
+  color: gray;
+  font-weight: 500;
+}
+
+#numOfDice {
+  font-size: 3rem;
+  font-weight: 600;
+  width: 15rem;
+  text-align: center;
+  color: #39b54a;
+  background-color: rgb(50, 50, 50);
+}
+
+#diceImages img {
+  width: 100px;
+}
+
+#diceImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#imageContainer {
+  max-width: 200rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#diceResult {
+  margin: 25px;
+}

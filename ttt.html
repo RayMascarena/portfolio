@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tic Tac Toe</title>
+        <meta name="description" content>
+        <meta name="author" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/vendor.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/games-apps/ttt.css">
+        <script src="js/modernizr.js"></script>
+        <script src="js/pace.min.js"></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap" rel="stylesheet">
+    </head>
+    <body id="top">
+        <header class="s-header">
+            <div class="header-logo">
+                <a class="site-logo" href="index.html">
+                    <img class="img-logo" src="images/logo.PNG" alt="Homepage">
+                </a>
+            </div>
+            <nav class="header-nav">
+                <a href="#0" class="header-nav__close" title="close">
+                    <span>Close</span>
+                </a>
+                <div class="header-nav__content">
+                    <h3>Navigation</h3>
+                    <ul class="header-nav__list">
+                        <li class="current">
+                            <a class="" href="index.html" title="home">Home</a>
+                        </li>
+                        <li>
+                            <a class="" href="apps.html" title="apps">Apps</a>
+                        </li>
+                        <li>
+                            <a class="" href="ttt.html" title="ttt">Tic Tac Toe</a>
+                        </li>
+                        <li>
+                            <a class="" href="rps.html" title="rps">Rock Paper Scissors</a>
+                        </li>
+                        <li>
+                            <a class="" href="dice.html" title="dice">Dice Roller</a>
+                        </li>
+                        <li>
+                            <a class="" href="calc.html" title="calc">Calculator</a>
+                        </li>
+                    </ul>
+                    <ul class="header-nav__social">
+                        <li>
+                            <a href="https://www.linkedin.com/in/raymascarena/" target="_blank">
+                                <img class="social-logo" src="images/linkedin.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/RayMascarena" target="_blank">
+                                <img class="social-logo" src="images/github.png">
+                            </a>
+                        </li>
+                    </ul>
+                    <div>
+                        <img class="rm-logo" src="images/rmlogo.PNG">
+                    </div>
+                </div>
+            </nav>
+            <a class="header-menu-toggle" href="#0">
+                <span class="header-menu-text">Menu</span>
+                <span class="header-menu-icon"></span>
+            </a>
+        </header>
+        <section id="ttt" class="game">
+            <h1 class="title">Tic Tac Toe</h1>
+
+            <div class="game-mode">
+                <button class="button" onclick="newGame()">New Game</button>
+            </div>
+
+            <div id="board" class="game-board">
+                <div class="section">
+                <div class="cell" onclick="makeMove(0)"></div>
+                <div class="cell" onclick="makeMove(1)"></div>
+                <div class="cell" onclick="makeMove(2)"></div>
+                </div>
+                <div class="section">
+                <div class="cell" onclick="makeMove(3)"></div>
+                <div class="cell" onclick="makeMove(4)"></div>
+                <div class="cell" onclick="makeMove(5)"></div>
+                </div>
+                <div class="section">
+                <div class="cell" onclick="makeMove(6)"></div>
+                <div class="cell" onclick="makeMove(7)"></div>
+                <div class="cell" onclick="makeMove(8)"></div>
+                </div>
+                <div id="result" class="result"></div>
+            </div>
+            </section>
+
+            <script src="js/ttt.js"></script>
+
+            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+            <script src="js/jquery.js"></script>
+            <script src="js/plugins.js"></script>
+            <script src="js/main.js"></script>
+            <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"899b03e10bbb5301","version":"2024.4.1","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
+        </body>

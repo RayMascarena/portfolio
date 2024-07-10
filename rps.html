@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Rock Paper Scissors</title>
+        <meta name="description" content>
+        <meta name="author" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/vendor.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/games-apps/rps.css">
+        <script src="js/modernizr.js"></script>
+        <script src="js/pace.min.js"></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body id="top">
+        <header class="s-header">
+            <div class="header-logo">
+                <a class="site-logo" href="index.html">
+                    <img class="img-logo" src="images/logo.PNG" alt="Homepage">
+                </a>
+            </div>
+            <nav class="header-nav">
+                <a href="#0" class="header-nav__close" title="close">
+                    <span>Close</span>
+                </a>
+                <div class="header-nav__content">
+                    <h3>Navigation</h3>
+                    <ul class="header-nav__list">
+                        <li class="current">
+                            <a class="" href="index.html" title="home">Home</a>
+                        </li>
+                        <li>
+                            <a class="" href="apps.html" title="apps">Apps</a>
+                        </li>
+                        <li>
+                            <a class="" href="ttt.html" title="ttt">Tic Tac Toe</a>
+                        </li>
+                        <li>
+                            <a class="" href="rps.html" title="rps">Rock Paper Scissors</a>
+                        </li>
+                        <li>
+                            <a class="" href="dice.html" title="dice">Dice Roller</a>
+                        </li>
+                        <li>
+                            <a class="" href="calc.html" title="calc">Calculator</a>
+                        </li>
+                    </ul>
+                    <ul class="header-nav__social">
+                        <li>
+                            <a href="https://www.linkedin.com/in/raymascarena/" target="_blank">
+                                <img class="social-logo" src="images/linkedin.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/RayMascarena" target="_blank">
+                                <img class="social-logo" src="images/github.png">
+                            </a>
+                        </li>
+                    </ul>
+                    <div>
+                        <img class="rm-logo" src="images/rmlogo.PNG">
+                    </div>
+                </div>
+            </nav>
+            <a class="header-menu-toggle" href="#0">
+                <span class="header-menu-text">Menu</span>
+                <span class="header-menu-icon"></span>
+            </a>
+        </header>
+        <section id="rps" class="game">
+             <h2 class="game-name">Rock Paper Scissors</h2>
+
+            <div class="moveContainer">
+                <button class="js-rock-button move-button">
+                <img class="move-icon" src="images/rock.png"></button>
+                
+                <button class="js-paper-button move-button">
+                <img class="move-icon" src="images/paper.png"></button>
+
+                <button class="js-scissors-button move-button">
+                <img class="move-icon" src="images/scissors.png"></button>
+            </div>
+            
+            <p class="js-result result"></p>
+            <p class="js-moves moves"></p>
+            <p class="js-score score"></p>
+            
+            <div class="buttonContainer">
+            <button class="reset-button" onclick="
+                score.wins = 0;
+                score.losses = 0;
+                score.ties = 0;
+                localStorage.removeItem('score');
+                updateScoreElement();
+            ">Reset Score</button>
+
+            <button class="auto-play-button" onclick="
+                autoPlay();
+            ">Auto Play</button>
+            </div>
+        </section>
+
+        <script src="js/rps.js"></script>
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"899b03e10bbb5301","version":"2024.4.1","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
+    </body>
