@@ -1704,8 +1704,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-bottom: 15.6rem;
     position: relative;
     overflow: hidden;
-    background-image: url("../images/finalbg.jpg");
-    background-size: cover;
+    background-image: url("../images/bgdark.jpg");
+    background-size: 200%;
 }
 
 .home-content h3 {
@@ -1982,6 +1982,9 @@ html.cl-loaded .home-content__main {
     .home-content__main {
         max-width: 800px;
     }
+    .home-content {
+        background-size: 222%;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -2000,7 +2003,7 @@ html.cl-loaded .home-content__main {
 
 @media only screen and (max-width: 800px) {
     .home-content {
-        
+        background-size: 270%;
     }
     .home-content h3 {
         font-size: 1.5rem;
@@ -2066,6 +2069,9 @@ html.cl-loaded .home-content__main {
 @media only screen and (max-width: 500px) {
     .s-home {
         min-height: 642px;
+    }
+    .home-content {
+        background-size: cover;
     }
     .home-content h1 {
         font-size: 3.5rem;
