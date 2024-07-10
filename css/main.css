@@ -1361,6 +1361,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-top: 10rem;
 }
 
+@media only screen and (max-height: 600px) {
+    .rm-logo {
+        padding-top: 4rem;
+    }
+}
+
 /* ------------------------------------------------------------------- 
  * ## main navigation 
  * ------------------------------------------------------------------- */
