@@ -3125,12 +3125,6 @@ html.cl-loaded .home-content__main {
     margin-top: -1.5rem;
 }
 
-/*
-.contact-secondary {
-    width: 35%;
-}
-*/
-
 .contact-secondary::before {
     content: "";
     display: block;
