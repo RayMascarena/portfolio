@@ -48,7 +48,7 @@
   object-fit: contain;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px), (max-height: 500px) {
   .banner {
     margin-top: 10rem;
   }
