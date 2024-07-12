@@ -74,7 +74,7 @@
 
 @media only screen and (max-height: 400px) {
   .banner {
-    margin-top: 15rem;
+    margin-top: 16rem;
   }
   .banner .slider .item img {
     width: 50%;
