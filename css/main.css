@@ -1358,14 +1358,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .rm-logo {
     display: flex;
     width: 10rem;
-    padding-top: 10rem;
+    padding-top: 4rem;
 }
 
-@media only screen and (max-height: 600px) {
-    .rm-logo {
-        padding-top: 4rem;
-    }
-}
 
 /* ------------------------------------------------------------------- 
  * ## main navigation 
