@@ -72,9 +72,6 @@
 }
 
 @media only screen and (max-height: 400px) {
-  .banner {
-    padding-top: 16rem;
-  }
   .banner .slider .item img {
     width: 50%;
     height: 50%;
