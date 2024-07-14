@@ -5,6 +5,12 @@
   background-position: top, center;
 }
 
+@media only screen and (min-width: 2000px) {
+  .apps {
+  background-image: url("../../images/darklablarge.JPG");
+  }
+}
+
 .banner {
   margin-top: 10rem;
   width: 100%;
