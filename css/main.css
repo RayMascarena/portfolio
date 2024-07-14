@@ -2169,7 +2169,8 @@ html.cl-loaded .home-content__main {
   border-bottom-left-radius: 110px 19px;
   border-bottom-right-radius: 120px 24px;
   position: relative;
-  background-color: #547c51;
+  background-image: url("../images/headshotbg.jpg");
+  background-size: cover;
   border: solid 4px #151515;
   padding: 2rem 2rem;
   margin: 2rem 2rem;
