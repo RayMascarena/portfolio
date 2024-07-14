@@ -2151,6 +2151,7 @@ html.cl-loaded .home-content__main {
     font-size: 2.4rem;
     line-height: 1.75;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     max-width: 100rem;
@@ -2158,28 +2159,123 @@ html.cl-loaded .home-content__main {
 
 .col-full-1 {
     text-align: center;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
+}
+
+.container1 {
+  border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+  position: relative;
+  border: solid 4px #151515;
+  padding: 2rem 2rem;
+  margin: 2rem 2rem;
+  transform: rotate(-1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  transition: all 0.13s ease-in;
+}
+
+.container1:hover {
+  transform: translateY(-10px) rotate(1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+}
+
+.container1:hover .border {
+  transform: translateY(4px) rotate(-5deg);
+}
+
+.border {
+  position: absolute;
+  transition: all 0.13s ease-in;
+}
+
+.border:before,
+.border:after {
+  color: #515d9c;
+  font-size: 15px;
+  position: absolute;
+}
+
+.tl {
+  position: absolute;
+  left: -50px;
+  top: -63px;
+  font-weight: 600;
+}
+
+.tl:before {
+  left: 120px;
+  top: 30px;
+}
+
+.tl:after {
+  left: 0px;
+  top: 80px;
+}
+
+.tr {
+  right: -50px;
+  top: -63px;
+  font-weight: 600;
+}
+
+.tr:before {
+  left: 0;
+  top: 30px;
+}
+
+.tr:after {
+  left: 130px;
+  top: 80px;
+}
+
+.bl {
+  left: -50px;
+  bottom: -71px;
+  font-weight: 600;
+}
+
+.bl:before {
+  left: 120px;
+  top: -30px;
+}
+
+.bl:after {
+  left: 0px;
+  top: -90px;
+}
+
+.br {
+  right: -50px;
+  bottom: -63px;
+  font-weight: 600;
+}
+
+.br:before {
+  left: 0;
+  top: -30px;
+}
+
+.br:after {
+  right: -10px;
+  top: -80px;
+}
+
+pre {
+  padding: 20px;
 }
 
 .desc-container {
     max-width: 45rem;
-    margin-right: 2rem;
     margin-top: 0;
+    padding-top: 1rem;
 }
 
 .headshot {
-    width: 30rem;
-    border-top: 8px;
-    border-right: 8px;
-    border-left: 8px;
-    border-bottom: 44px;
-    border-style: solid;
-    border-color: #fff;
-    margin-left: 2rem;
+    width: 28rem;
+    margin-top: 0;
 }
 
 
@@ -2265,6 +2361,7 @@ html.cl-loaded .home-content__main {
     .about-desc {
         font-size: 2rem;
         max-width: 600px;
+        flex-direction: column;
     }
     .welcome-section {
         padding-top: 10rem;
@@ -2294,16 +2391,12 @@ html.cl-loaded .home-content__main {
     .about-header {
         flex-direction: column;
     }
-    .col-full-1 {
-        flex-direction: column;
-    }
     .welcome-section {
         padding-top: 2rem;
     }
     .desc-container {
         margin-right: 0;
         margin-top: 0;
-        padding-bottom: 3rem;
     }
     .headshot {
         margin-left: 0;
