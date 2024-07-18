@@ -1700,8 +1700,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-bottom: 15.6rem;
     position: relative;
     overflow: hidden;
-    background-image: url("../images/bgdark.jpg");
-    background-size: 200%;
 }
 
 .home-content h3 {
