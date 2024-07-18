@@ -1976,9 +1976,6 @@ html.cl-loaded .home-content__main {
     .home-content__main {
         max-width: 800px;
     }
-    .home-content {
-        background-size: 222%;
-    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1996,9 +1993,6 @@ html.cl-loaded .home-content__main {
 }
 
 @media only screen and (max-width: 800px) {
-    .home-content {
-        background-size: 270%;
-    }
     .home-content h3 {
         font-size: 1.5rem;
     }
