@@ -2638,7 +2638,7 @@ pre {
 
 .item-folio__thumb a::before {
     display: block;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
     content: "";
     opacity: 0;
     visibility: hidden;
@@ -2715,7 +2715,7 @@ pre {
 }
 
 .item-folio__cat {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
     font-family: "montserrat-light", sans-serif;
     font-size: 1.4rem;
     line-height: 1.714;
@@ -2813,7 +2813,7 @@ pre {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
     .item-folio__title, .item-folio__cat {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }
 
@@ -2832,7 +2832,7 @@ pre {
         width: 100%;
     }
     .item-folio__title, .item-folio__cat {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 }
 
