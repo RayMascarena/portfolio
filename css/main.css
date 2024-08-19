@@ -2700,6 +2700,18 @@ pre {
     text-transform: uppercase;
     letter-spacing: .2rem;
     margin: 0 0 .3rem 0;
+    visibility: hidden;
+}
+
+.item-folio__title-visible {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.286;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin: 0 0 .3rem 0;
+    white-space: nowrap;
 }
 
 .item-folio__cat {
@@ -2788,6 +2800,10 @@ pre {
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+}
+
+.radius-icon {
+    border-radius: 50%;
 }
 
 
