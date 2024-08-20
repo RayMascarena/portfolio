@@ -2133,6 +2133,10 @@ html.cl-loaded .home-content__main {
     margin: 0;
 }
 
+.portfolio {
+    margin-bottom: -3rem;
+}
+
 .gif {
     width: 18rem;
     height: 18rem;
