@@ -2111,7 +2111,7 @@ html.cl-loaded .home-content__main {
 .s-about {
     padding-top: 10rem;
     padding-bottom: 4rem;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.02);
     color: #ffffff;
     position: relative;
 }
@@ -2151,6 +2151,7 @@ html.cl-loaded .home-content__main {
     align-items: center;
     justify-content: center;
     max-width: 100rem;
+    color: #ffffff;
 }
 
 .col-full-1 {
