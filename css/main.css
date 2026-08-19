@@ -2111,8 +2111,8 @@ html.cl-loaded .home-content__main {
 .s-about {
     padding-top: 10rem;
     padding-bottom: 4rem;
-    background-color: #39b54a;
-    color: #010507;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
     position: relative;
 }
 
