@@ -2311,6 +2311,7 @@ pre {
 
 .stats__col:last-child {
     border-right: none;
+    postion: absolute;
 }
 
 .stats__count {
