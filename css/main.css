@@ -2298,6 +2298,7 @@ pre {
  * ------------------------------------------------------------------- */
 .about-stats {
     text-align: center;
+    postion: relative;
 }
 
 .stats__col {
