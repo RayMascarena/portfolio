@@ -2144,7 +2144,7 @@ html.cl-loaded .home-content__main {
 }
 
 .about-desc {
-    font-size: 1.0rem;
+    font-size: 0.5rem;
     line-height: 1.75;
     display: flex;
     flex-direction: row;
