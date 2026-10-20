@@ -2143,6 +2143,10 @@ html.cl-loaded .home-content__main {
     margin: 0;
 }
 
+.desc-container {
+    font-size: 1.0rem;
+}
+
 .about-desc {
     font-size: 0.5rem;
     line-height: 1.75;
