@@ -2158,6 +2158,10 @@ html.cl-loaded .home-content__main {
     color: #ffffff;
 }
 
+.desc-container {
+    font-size: 1.0rem;
+}
+
 .col-full-1 {
     text-align: center;
     align-items: center;
