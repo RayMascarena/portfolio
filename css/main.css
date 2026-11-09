@@ -2155,7 +2155,9 @@ html.cl-loaded .home-content__main {
 }
 
 .desc-container {
+    font-family: "Montserrat", sans-serif;
     font-size: 2.0rem;
+    font-weight: 100;
 }
 
 .col-full-1 {
